@@ -1,5 +1,4 @@
 import React from 'react';
-import contact from '../../assets/img/contact.png';
 import Button from "../../components/Btncomponent";
 
 const ContactPage = () => {
