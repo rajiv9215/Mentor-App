@@ -11,7 +11,7 @@ let io;
 export const initializeSocket = (server) => {
     io = new Server(server, {
         cors: {
-            origin: process.env.FRONTEND_URL || 'http://localhost:1234',
+            origin: process.env.FRONTEND_URL || 'https://mentor-app-kxzr.vercel.app',
             methods: ['GET', 'POST'],
             credentials: true
         }
