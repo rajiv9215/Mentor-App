@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with default config
 const api = axios.create({
-    baseURL: 'http://localhost:7777/api/v1',
+    baseURL: 'https://mentor-app-4dhx.onrender.com/api/v1',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
